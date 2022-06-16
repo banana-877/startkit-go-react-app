@@ -3,13 +3,13 @@ USE demo_db;
 create table `user`(
     `id` BIGINT NOT NULL AUTO_INCREMENT,
     `name`    varchar(255) not null,
-    `created_at` DATETIME NOT NULL,
+    `created_at` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
     primary key(id)
 );
 
 CREATE TABLE `ping` (
   `id` BIGINT NOT NULL AUTO_INCREMENT,
-  `created_at` DATETIME NOT NULL,
+  `created_at` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
   primary key(`id`)
 );
 

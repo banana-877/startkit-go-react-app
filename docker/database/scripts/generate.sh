@@ -1,6 +1,6 @@
 #!/bin/sh -eux
 
-cd $(dirname $0)
+cd ./../../api
 
 export GO111MODULE=off
 
@@ -9,7 +9,7 @@ go get -u github.com/volatiletech/sqlboiler/drivers/sqlboiler-mysql
 
 export GO111MODULE=on
 
-cd ./../../api
+# cd ./../../api
 
 echo finish
 

@@ -3,14 +3,5 @@
 
 package models
 
-var TableNames = struct {
-	Book  string
-	Ping  string
-	Tweet string
-	User  string
-}{
-	Book:  "book",
-	Ping:  "ping",
-	Tweet: "tweet",
-	User:  "user",
-}
+var ViewNames = struct {
+}{}

@@ -1,7 +1,7 @@
 [mysql]
-  dbname="todo_db"
+  dbname="demo_db"
   host="localhost"
   port=3306
-  user="test_u"
-  pass="test_pw"
+  user="demo_u"
+  pass="demo_pw"
   sslmode="false"
